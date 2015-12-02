@@ -1,0 +1,66 @@
+/* Check vouher code */
+.woo-vou-check-voucher-code-loader {
+	display: inline;
+}
+.woo-vou-loader {
+	display: none;
+}
+.woo-vou-voucher-code-msg {
+	margin-top: 5px;
+}
+.woo-vou-voucher-code-error {
+	color: #FF0000;
+}
+.woo-vou-voucher-code-success {
+	color: #00AA00;
+}
+.woo-vou-voucher-code-submit-wrap {
+	display: none;
+}
+
+/* Purchase Voucher Codes */
+.wp-list-table.purchasedvous .column-code {
+	width: 15%;
+}
+.wp-list-table.purchasedvous .column-product_info {
+	width: 20%;
+}
+.wp-list-table.purchasedvous .column-buyers_info {
+	width: 25%;
+}
+.wp-list-table.purchasedvous .column-order_info {
+	width: 25%;
+}
+.wp-list-table.purchasedvous .column-order_date {
+	width: 15%;
+}
+.wp-list-table.purchasedvous .column-order_id {
+	width: 10%
+}
+.wp-list-table .order_info.column-order_info td{
+	padding:0px;
+}
+.wp-list-table .product_info.column-product_info td{
+	padding:0px;
+}
+
+/* Used Voucher Codes */
+.wp-list-table.usedvous .column-code {
+	width: 15%;
+}
+.wp-list-table.usedvous .column-product_info {
+	width: 25%;
+}
+.wp-list-table.usedvous .column-buyers_info {
+	width: 30%;
+}
+.wp-list-table.usedvous .column-order_info {
+	width: 30%;
+}
+.wp-list-table.usedvous .column-redeem_by {
+ 	width: 10%;
+}
+.wp-list-table.purchasedvous .column-buyers_info table td,
+.wp-list-table.usedvous .column-buyers_info table td {
+	padding: 0px;
+}

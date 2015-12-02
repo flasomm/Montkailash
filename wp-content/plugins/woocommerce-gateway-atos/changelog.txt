@@ -1,0 +1,19 @@
+﻿13 mars 2013 - Version 1.1.1
+[Maj] Mise à jour de l'API de licence.
+[Fix] Correction d'une erreur sur la validation de la licence pour les WordPress en anglais.
+
+11 février 2014 - Version 1.1
+[new] Comptatibilité avec la version 2.1 de WooCommerce. La gestion des pages de commande a été totalement revue. 
+[new] Gestion des hébergeurs qui bloquent la fonction exec(), tels que Infomaniak, WPEngine. L'administration de la passerelle permet d'indiquer la prise en charge ou non de la fonction exec().
+[fix] Gestion des commandes invité sur la page de remerciement. Le lien vers le compte client n'est ajouté que si la commande est liée à un compte client.
+[fix] Correction d'une mauvaise gestion de la page de remerciement après paiement pour les produits téléchargeables. Pour ces produits le statut de la commande passe directement à Terminée sans passer par le statut En Cours.
+
+17 décembre 2013 - Version 1.0.2
+[fix] Atos Sips n'accepte pas les URLs de retour en protocole https. Remplacement du https par un http pour les boutiques utilisant ce protocole.
+[new] Ajout des instructions d'activation de licence dans le fichier instructions-installation-parametrages.txt
+
+11 décembre 2013 - Version 1.0.1
+[fix] Limitation de l'adresse IP du client à 19 caractères. Les IPv6 généraient une erreur car le cgi request de la banque n'accepte pas plus de 19 caractères dans le champ 'customer_ip_address'. Les IPv6 sont donc tronquées en attendant une hypothétique mise à jour du kit bancaire Atos.
+
+20 novembre 2013 - Version 1.0
+Version initiale de la passerelle de paiement.

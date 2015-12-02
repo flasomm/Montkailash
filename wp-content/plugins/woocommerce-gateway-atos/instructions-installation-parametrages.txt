@@ -1,0 +1,44 @@
+Installation
+------------
+
+Dans votre tableau de bord WordPress, rendez-vous dans l'onglet Extensions puis cliquez sur Ajouter. Choisissez l'option Envoyer puis cliquez sur le bouton parcourir pour sélectionner l'extension depuis votre disque dur. Cliquez sur Installer maintenant pour lancer l'installation. Activez l'extension à la fin de l'installation.
+
+Paramétrages
+------------
+
+Avant de pouvoir utiliser cette passerelle de paiement, vous devez avoir installé et paramétré le kit et le certficat commerçant récupérés auprès du service technique de votre banque.
+
+Si vous ne souhaitez pas vous lancer dans l'installation et le paramétrage de votre solution bancaire et de cette passerelle de paiement, vous pouvez nous confier cette tâche. Plus d'informations à cette adresse : http://www.absoluteweb.net/boutique/installation-parametrage-test-passerelle-paiement/
+
+Pour paramétrer votre passerelle de paiement Atos Sips, rendez-vous dans l'onglet WooCommerce > Paramètres, cliquez sur l'onglet Passerelles de Paiement (WooCommerce < 2.1) ou l'onglet Commandes (WooCommerce 2.1 et +). La passerelle dont l'ID est atos doit être présente dans la liste des passerelles.
+Dans le sous-menu en haut de page, cliquez sur Atos Sips pour accéder aux paramètres de la passerelle.
+Vous pouvez également y accéder directement sur la page des extensions, depuis le lien Réglages de la passerelle.
+
+Cochez "Activer le paiement Atos Sips" pour le rendre disponible à vos clients lors du règlement de leurs commandes.
+Adaptez le titre, le message et l'icône de paiement selon vos préférences. Ces trois éléments sont affichés au client lors du choix de son mode de paiement.
+Renseignez l'ID commerçant qui vous a été communiqué par votre banque. En phase de test vous devrez renseigner l'identifiant correspondant présent dans le kit de la banque.
+Indiquez si votre hébergeur supporte la fonction exec(). Si non, n'oubliez pas de copier le contenu du dossier perl dans un dossier cgi-bin à la racine de votre site.
+Renseignez la devise utilisée sur la boutique, le pays du commerçant, la langue utilisée sur la boutique.
+Renseignez les emplacements des fichiers pathfile, request et response de votre kit.
+Précisez le mode d'envoi en banque, encaissement automatique ou annulation automatique après X jours, puis le nombre de jours correspondant.
+Pour enregistrer des logs (erreurs, retour de la banque), renseignez le chemin et le nom d'un fichier texte.
+Vous pouvez ajouter une bannière et un second logo sur la page de paiement de la banque en renseignant le nom de ces images. Attention, comme le précise la documentation de la banque, ces images doivent avoir été transmises au service technique de la banque. Si vous n'utilisez pas ces images, laissez les champs vides.
+Le champ paiement permet de renseigner les cartes bancaires que vous proposerez sur votre boutique. Consultez le dictionnaire des données de votre banque pour plus d'informations.
+En phase de test, vous pouvez cocher l'affichage du débogage pour visualiser les données envoyées à la banque et autres paramètres utiles.
+
+N'oubliez pas d'enregistrer les modifications.
+
+Consultez notre tutorial vidéo de paramétrage de la passerelle de paiement Atos Sips sur cette adresse http://www.youtube.com/watch?v=PYY8bgVe0wo
+
+URL de l'extension :
+
+http://www.absoluteweb.net/prestations/wordpress-woocommerce-extensions-traductions/woocommerce-atos-worldline-sips/
+
+Activation de la licence
+------------------------
+
+Vous bénéficiez d'un an de support et de mises à jour lors de l'achat de votre passerelle. Pour activer votre licence et être automatiquement informé des mises à jour, vous devez activer votre licence.
+Dans votre tableau de bord WordPress, rendez-vous dans Réglages > Licence Passerelle Atos Sips.
+Renseignez votre clé de licence ainsi que votre email de commande. Ces éléments vous ont été envoyés par email lors de la validation de votre achat. Vous pouvez également les retrouver sur votre compte ABSOLUTE Web à l'adresse http://www.absoluteweb.net/mon-compte/.
+Pensez à cliquer sur "Enregistrer les changements" pour que votre licence s'active.
+Si vous devez déplacer votre site, vous devrez désactiver la licence sur le site actuel pour pouvoir la réactiver sur un autre site. Passez par l'onglet "Désactivation de la Licence" pour cela.

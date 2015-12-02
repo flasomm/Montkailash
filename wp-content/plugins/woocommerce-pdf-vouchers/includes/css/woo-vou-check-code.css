@@ -1,0 +1,53 @@
+.woo-vou-check-voucher-code-loader {
+	display: inline;
+}
+.woo-vou-loader {
+	display: none;
+}
+.woo-vou-voucher-code-msg {
+	margin-top: 5px;
+}
+.woo-vou-voucher-code-error {
+	color: #FF0000;
+}
+.woo-vou-voucher-code-success {
+	color: #00AA00;
+}
+.woo-vou-voucher-code-submit-wrap {
+	display: none;
+}
+.woo_vou_product_details{
+	color: #000;
+	margin-top: 15px;
+}
+.woo_vou_product_details h2 {
+  line-height: 29px;  
+}
+.woo_vou_product_details .alt, .woo_vou_product_details .alternate {
+  background-color: #f9f9f9;
+}
+.woo_vou_product_details table.woocommerce_order_items th, .woo_vou_product_details table.woocommerce_order_items thead th {
+  padding: 7px !important;  
+  vertical-align: middle !important;   
+}
+.woo_vou_product_details table.woocommerce_order_items td {
+  margin-bottom: 9px;
+  padding: 7px !important;
+  vertical-align: top !important;
+}
+.woo_vou_product_details table.woo-vou-buyer-info-table td {
+	padding-bottom: 0 !important;
+	padding-top: 0 !important;
+}
+.woo_vou_product_details table.woocommerce_order_items thead th {
+  background: none repeat scroll 0 0 #f8f8f8;  
+}
+.woo_vou_product_details table.display_meta th {
+  padding: 7px 0 !important;
+}
+.woo_vou_product_details table.display_meta p {
+  margin: 0;
+}
+.woo_vou_product_details table{
+  border: none;
+}
